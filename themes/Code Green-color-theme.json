@@ -240,13 +240,6 @@
             }
         },
         {
-            "name": "Block Level Variables",
-            "scope": ["meta.block variable.other"],
-            "settings": {
-                "foreground": "#ffac8a"
-            }
-        },
-        {
             "name": "Other Variable, String Link",
             "scope": ["support.other.variable", "string.other.link"],
             "settings": {
@@ -330,7 +323,7 @@
         },
         {
             "name": "HTML other",
-            "scope": ["text.html.derivtive"],
+            "scope": ["text.html.derivative"],
             "settings": {
                 "foreground": "#f78c6c"
             }
@@ -676,14 +669,14 @@
             }
         },
         {
-            "name": "Markdown - Fenced Bode Block",
+            "name": "Markdown - Fenced Code Block",
             "scope": ["punctuation.definition.fenced.markdown"],
             "settings": {
                 "foreground": "#00000050"
             }
         },
         {
-            "name": "Markdown - Fenced Bode Block Variable",
+            "name": "Markdown - Fenced Code Block Variable",
             "scope": [
                 "markup.raw.block.fenced.markdown",
                 "variable.language.fenced.markdown",
@@ -1052,6 +1045,6 @@
             "settings": {
                 "foreground": "#c3e88d"
             }
-        },
+        }
     ]
 }

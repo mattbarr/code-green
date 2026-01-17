@@ -1,6 +1,6 @@
 # Changelog
 
-### v0.9.18
+### v0.9.19
 Tweak caret colour for better visibility
 
 ### v0.9.18
