@@ -434,9 +434,16 @@
         },
         {
             "name": "URL",
-            "scope": ["*url*", "*link*", "*uri*"],
+            "scope": [
+                "string.url",
+                "string.other.link",
+                "constant.other.reference.link",
+                "text.html.markdown link",
+                "markup.underline.link"
+            ],
             "settings": {
-                "fontStyle": "underline"
+                "fontStyle": "underline",
+                "foreground": "#89DDFF"
             }
         },
         {
